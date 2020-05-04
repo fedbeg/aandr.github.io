@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+    font-family: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+    backface-visibility: hidden;
+    scroll-behavior: smooth;
+}
+
+body {}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: 0.2s all ease;
+    backface-visibility: hidden;
+
+    &:hover {
+        transform: translateY(-0.2rem);
+    }
+
+    &:active {
+        transform: translateY(0rem);
+    }
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+
+
+
+    .special__contianer-1 {
+        height: auto;
+    }
+
+    .special__contianer-2 {
+        height: auto;
+    }
+
+
+    .nav .list .items .links {
+        display: none;
+    }
+
+    .hero__heading {
+        font-size: 4rem;
+
+    }
+
+    .select__heading {
+        display: none;
+    }
+
+    .spec__grid {}
+
+    .interior__images__container .dynamic__images {
+        flex: 0 0 44%;
+    }
+
+    .sec__about {
+        padding: 0;
+    }
+
+    .dis__sec__about__main .heading-2 {
+        margin-top: 2rem;
+    }
+
+    .dis__care__card .dis__care__card__main-heading {
+        font-size: 3rem;
+        padding: 2rem;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .mechanic {
+        margin: 0;
+    }
+
+    .mechanic__heading {
+        font-size: 3rem;
+        margin: 2rem;
+    }
+
+    .Call {
+        margin: 0;
+        padding: 3rem;
+    }
+
+    .workflow {
+        padding: 0;
+    }
+
+    .form__container__2 {
+        width: 100%;
+    }
+
+    .form {
+        margin: 0;
+        background: none;
+    }
+
+    .form__container {
+        padding: 0;
+        width: 96%;
+    }
+
+    .form__btn {
+        margin-left: 4rem;
+    }
+
+}

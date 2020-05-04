@@ -1,0 +1,71 @@
+.hero{
+    height:45rem;
+        background: linear-gradient(rgba(39, 31, 31, 0.658), rgba(0, 0, 0, 0.493)) , url(../img/img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    
+    &__content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5rem 6rem 4rem 5rem;
+    width: 60vw;
+    
+    
+    
+    }
+    &__heading{
+      color: white;
+      font-size: 5rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-bottom: 6rem;
+      
+    }
+    
+    
+    &__btn{
+    
+    
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    font-size: 1.6rem;
+    color: white;
+    
+    
+    }
+    
+    
+    }
+    
+    .one{
+        color: rgb(255, 255, 255);
+        background-color: #0C4C7B;
+    }
+    
+    
+    .select{
+    
+        height: 15rem;
+        background-color: #F5F5F5;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    
+        &__heading{
+            font-size: 2rem;
+            color: #333333;
+            font-weight: 500;
+        }
+    
+    }
+    .two{
+        color: rgb(255, 255, 255);
+        background-color: #0C4C7B;
+    }
+    
+    
