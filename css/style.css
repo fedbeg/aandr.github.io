@@ -528,6 +528,10 @@ color: #0C4C7B;
   left:35%;
 
 }
+ .tyres__brands{
+    margin-left: 10rem;
+  }
+
 .facebook:hover{
   transform: none;
 }
