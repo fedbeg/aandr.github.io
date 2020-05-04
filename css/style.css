@@ -131,7 +131,7 @@ font-weight: bold; }
 color: #0C4C7B;
 }
   .interior__images__container {
-    padding: 0rem 6rem;
+   
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
