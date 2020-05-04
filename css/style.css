@@ -100,7 +100,7 @@ font-weight: bold; }
   .tyres__brands {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-template-rows: 10rem 10rem 10rem;
+   grid-auto-rows: 10rem;
     margin-top: 4rem; }
     .tyres__brands__img {
       display: block;
