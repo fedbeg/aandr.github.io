@@ -332,7 +332,7 @@ color: #0C4C7B;
   margin-top: 10rem; }
   .spec__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     border-bottom: 0.6px solid #dddddd; }
     .spec__grid .col {
       padding: 1rem;
@@ -549,6 +549,10 @@ padding-top: 2rem;
 .tyres__image{
     top:5%;
     left: 3% ;
+  }
+.spec__grid .col-heading{
+    font-size: 2rem ;
+    padding: 2rem;
   }
 
   
