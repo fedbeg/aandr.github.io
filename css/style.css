@@ -86,7 +86,7 @@ font-weight: bold; }
 
 .tyres {
   height: auto;
-  padding: 5rem 0rem 6rem 8rem;
+  padding: 5rem 0rem 6rem 0rem;
   position: relative;
   border-bottom: 1px solid #bdbdbd; }
   .tyres__container {
