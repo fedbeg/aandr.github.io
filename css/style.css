@@ -557,7 +557,10 @@ padding-top: 2rem;
     font-size: 2.2rem ;
     padding: 1rem;
   }
-
+.fb{
+  position: absolute;
+  top: 53%;
+  left:60%;
   
 
 .special__contianer-1{
