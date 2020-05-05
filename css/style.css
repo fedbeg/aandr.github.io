@@ -484,7 +484,7 @@ color: #0C4C7B;
 .cards{
   margin-right: 2rem;
   
-  min-width: 30rem;
+  min-width:28rem;
   max-width: 33rem;
   margin: 0 auto;
   position: relative;
