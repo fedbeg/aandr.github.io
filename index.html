@@ -626,24 +626,20 @@ i
 
     </div>
 
-</section>
-
 <section class="form">
 <div class="form__container__2">
     <div class="form__container">
         <h1 class="form__heading">
         Contact Us
         </h1>
-        <input type="text" class="text" placeholder="Full Name" id="name" required>
+        <form id="form" method="POST" action="mail_handler.php"></form>
+        <input name="name"  type="text" class="text" placeholder="Full Name" id="name" required>
         
-        <input type="email" class="text" placeholder="Email" id="email" required>
+        <input name="email" type="email" class="text" placeholder="Email" id="email" required>
          <textarea name="message" id="textarea" class="text" cols="30" rows="10" placeholder="Your Message" required  ></textarea> 
         
          <div class="hero__btn__container form__btn">
-            <a href="#" class="hero__btn one form__btn__modifier">Send Email
-
-            </a>
-
+          <input type="submit" name="submit" class="hero__btn one form__btn__modifier">
 
             <p class="form__last__text">
                 Call to book an appointment. <br>
